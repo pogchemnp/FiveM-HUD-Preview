@@ -1,0 +1,56 @@
+body {
+    background-image: url(https://cdn.discordapp.com/attachments/883511946534608948/904804928751546368/Zrzut_ekranu_1211.png);
+}
+
+
+.uwu {
+    display: nini;
+    position: absolute;
+    bottom: 35%;
+    left: 98%;
+    transform: translate(-50%, -1%);
+
+}
+
+.opt {
+    height: 52px;
+    width: 52px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 10px;
+    transform: skew(-10deg);
+    border-radius: 5px;
+}
+
+.opt::after{
+    content: '';
+    background-color: rgb(255, 0, 0);
+    height: 80%;
+    top: 50%;
+    position: absolute;
+    border-radius: 10px;
+    width: 19%;
+    right: 0%;
+    transform: translate(-2%,-50%);
+
+}
+
+.opt:nth-child(2)::after {
+    background-color: rgb(230, 130, 49);
+}
+
+.opt:nth-child(3)::after {
+    background-color: rgb(65, 180, 225);
+}
+
+.opt:nth-child(4)::after {
+    background-color: rgb(139, 139, 130);
+}
+
+.fas {
+    color: white;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 17%;
+    left: 35%;
+    transform: translate(-35%,17%);
+}
